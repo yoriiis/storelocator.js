@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -11,46 +9,44 @@
         <meta name="description" content="Install Storelocatorjs with npm or manual import. Installation is fast and the map is easily customizable. Google Maps API is automatically loaded and cloud function is included">
       
       
-        <link rel="canonical" href="https://yoriiis.github.io/storelocatorjs/getting-started.html">
-      
       
         <meta name="author" content="Joris DANIEL aka Yoriiis">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.4">
+      
+        <link rel="canonical" href="https://yoriiis.github.io/storelocatorjs/getting-started.html">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.2">
     
     
       
-        <title>Getting started - Storelocatorjs</title>
+        <title>Getting started - Storelocatorjs - Storelocatorjs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.c4007cdc.min.css">
-      
-        <link rel="stylesheet" href="assets/stylesheets/palette.8435c73a.min.css">
-      
+      <link rel="stylesheet" href="assets/stylesheets/main.6f955dcd.min.css">
       
         
+        <link rel="stylesheet" href="assets/stylesheets/palette.ef6f36e2.min.css">
         
-        <meta name="theme-color" content="">
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
       
     
     
     
       
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CUbuntu+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Ubuntu Mono"}</style>
       
     
     
     
     
-      
-        
-<link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-108758282-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview")})</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
     
@@ -65,8 +61,14 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="white">
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="white">
   
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -83,46 +85,50 @@
     </div>
     
       <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://yoriiis.github.io/storelocatorjs/" title="Storelocatorjs" class="md-header-nav__button md-logo" aria-label="Storelocatorjs">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Storelocatorjs" class="md-header__button md-logo" aria-label="Storelocatorjs" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    <label class="md-header-nav__button md-icon" for="__drawer">
+    <label class="md-header__button md-icon" for="__drawer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
     </label>
-    <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
             Storelocatorjs
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
             
               Getting started - Storelocatorjs
             
           </span>
         </div>
-      
+      </div>
     </div>
     
-      <label class="md-header-nav__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
       
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
@@ -139,12 +145,12 @@
 </div>
     
     
-      <div class="md-header-nav__source">
+      <div class="md-header__source">
         
-<a href="https://github.com/yoriiis/storelocatorjs/" title="Go to repository" class="md-source">
+<a href="https://github.com/yoriiis/storelocatorjs/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     yoriiis/storelocatorjs
@@ -157,8 +163,6 @@
     
     <div class="md-container" data-md-component="container">
       
-        
-      
       
         
       
@@ -166,15 +170,19 @@
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://yoriiis.github.io/storelocatorjs/" title="Storelocatorjs" class="md-nav__button md-logo" aria-label="Storelocatorjs">
+    <a href="." title="Storelocatorjs" class="md-nav__button md-logo" aria-label="Storelocatorjs" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
     Storelocatorjs
@@ -182,10 +190,10 @@
   
     <div class="md-nav__source">
       
-<a href="https://github.com/yoriiis/storelocatorjs/" title="Go to repository" class="md-source">
+<a href="https://github.com/yoriiis/storelocatorjs/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     yoriiis/storelocatorjs
@@ -199,12 +207,15 @@
       
       
 
-
-  <li class="md-nav__item">
-    <a href="index.html" title="Overview" class="md-nav__link">
-      Overview
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
 
     
       
@@ -212,36 +223,36 @@
       
 
   
-
-
-  <li class="md-nav__item md-nav__item--active">
+  
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Getting started
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="getting-started.html" title="Getting started" class="md-nav__link md-nav__link--active">
-      Getting started
-    </a>
-    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
       
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="getting-started.html" class="md-nav__link md-nav__link--active">
+        Getting started
+      </a>
+      
+        
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
+  
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
@@ -377,80 +388,99 @@
     </ul>
   
 </nav>
-    
-  </li>
+      
+    </li>
+  
 
     
       
       
       
 
-
-  <li class="md-nav__item">
-    <a href="how-it-works.html" title="How it works" class="md-nav__link">
-      How it works
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="available-options.html" title="Available options" class="md-nav__link">
-      Available options
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="how-it-works.html" class="md-nav__link">
+        How it works
+      </a>
+    </li>
+  
 
     
       
       
       
 
-
-  <li class="md-nav__item">
-    <a href="features.html" title="Features" class="md-nav__link">
-      Features
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="demo.html" title="Demo" class="md-nav__link">
-      Demo
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="available-options.html" class="md-nav__link">
+        Available options
+      </a>
+    </li>
+  
 
     
       
       
       
 
-
-  <li class="md-nav__item">
-    <a href="download.html" title="Download" class="md-nav__link">
-      Download
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="features.html" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
 
     
       
       
       
 
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="demo.html" class="md-nav__link">
+        Demo
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item">
-    <a href="licenses.html" title="Licenses" class="md-nav__link">
-      Licenses
-    </a>
-  </li>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="download.html" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="licenses.html" class="md-nav__link">
+        Licenses
+      </a>
+    </li>
+  
 
     
   </ul>
@@ -460,7 +490,8 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -468,13 +499,12 @@
   
   
   
+  
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
@@ -615,7 +645,7 @@
               </div>
             
           
-          <div class="md-content">
+          <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
@@ -624,26 +654,22 @@
                   </a>
                 
                 
-                  
-                
-                
                   <h1>Getting started</h1>
                 
                 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
 <h3 id="npm">NPM<a class="headerlink" href="#npm" title="Permanent link">&para;</a></h3>
 <p>Install Storelocatorjs with npm:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>npm install storelocatorjs
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>npm install storelocatorjs
 </code></pre></div>
 </td></tr></table>
-
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6
-7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="kr">import</span> <span class="nx">storelocatorjs</span> <span class="nx">from</span> <span class="s1">&#39;storelocatorjs&#39;</span><span class="p">;</span>
-<span class="kr">import</span> <span class="s1">&#39;storelocatorjs.css&#39;</span><span class="p">;</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="k">import</span> <span class="nx">storelocatorjs</span> <span class="nx">from</span> <span class="s1">&#39;storelocatorjs&#39;</span><span class="p">;</span>
+<span class="k">import</span> <span class="s1">&#39;storelocatorjs.css&#39;</span><span class="p">;</span>
 
 <span class="k">new</span> <span class="nx">storelocatorjs</span><span class="p">({</span>
     <span class="nx">apiKey</span><span class="o">:</span> <span class="s1">&#39;&#39;</span>
@@ -651,18 +677,17 @@
 <span class="p">});</span>
 </code></pre></div>
 </td></tr></table>
-
 <h3 id="manual-import">Manual import<a class="headerlink" href="#manual-import" title="Permanent link">&para;</a></h3>
 <p>Includes files manually in your project:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;storelocator.css&quot;</span> <span class="p">/&gt;</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;storelocator.css&quot;</span> <span class="p">/&gt;</span>
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;storelocator.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 
 <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
@@ -673,7 +698,6 @@
 <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </code></pre></div>
 </td></tr></table>
-
 <h2 id="load-google-maps-api">Load Google Maps API<a class="headerlink" href="#load-google-maps-api" title="Permanent link">&para;</a></h2>
 <p>Google Maps API is automatically loaded by storelocatorjs. The map is instanciate when the API is ready.</p>
 <h2 id="api-key">API key<a class="headerlink" href="#api-key" title="Permanent link">&para;</a></h2>
@@ -682,14 +706,13 @@
 <p>All requests to filter stores by geoposition are send to a cloud function as a web service. Storelocatorjs includes the cloud functions project from <a href="https://firebase.google.com/docs/functions">Google Firebase</a> located in the <code>./functions</code> folder.</p>
 <p>Storelocatorjs examples are linked to the cloud function. To run locally the cloud function, simply create a <code>.env</code> from the <code>.env.dist</code> file in the <code>./functions</code> directory and fill the <code>CLOUD_FUNCTION_DOMAIN</code> variable with you virtual host to authorize CORS requests.</p>
 <p>Then, to run Storelocatorjs examples, simply run the following commands:</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="err">cd functions</span>
-<span class="err">npm install</span>
-<span class="err">npm run serve</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>cd functions
+npm install
+npm run serve
 </code></pre></div>
 </td></tr></table>
-
 <p>Cloud function will be automatically accessible locally on Storelocatorjs examples in the <code>./examples</code> folder.</p>
 <h2 id="json-structure">JSON structure<a class="headerlink" href="#json-structure" title="Permanent link">&para;</a></h2>
 <p>The storelocatorjs project includes a JSON example in the folder <code>./functions/database.json</code>.
@@ -699,17 +722,17 @@ Datas are stored in an array of object for better performance.<br /></p>
 <p><strong>It is important to respect the format of the keys in the JSON file.</strong></p>
 </div>
 <p>In case of filters usage, the category value in the highlight line must correspond to the filter <code>value</code> attributes in the HTML.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="nt">&quot;address&quot;</span><span class="p">:</span> <span class="s2">&quot;34 Avenue de la Perrière&quot;</span><span class="p">,</span>
 <span class="hll">    <span class="nt">&quot;category&quot;</span><span class="p">:</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span>
 </span>    <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;Lorient&quot;</span><span class="p">,</span>
@@ -722,118 +745,106 @@ Datas are stored in an array of object for better performance.<br /></p>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;cat-1&quot;</span> <span class="na">data-filter</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="p">/&gt;</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;cat-1&quot;</span> <span class="na">data-filter</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="p">/&gt;</span>
 </code></pre></div>
 </td></tr></table>
-
 <h2 id="json-fields">JSON fields<a class="headerlink" href="#json-fields" title="Permanent link">&para;</a></h2>
 <p>List of available fields in the JSON. Mandatory fields are <code>lat</code> and <code>lng</code>.</p>
 <h4 id="lat"><code>lat</code><a class="headerlink" href="#lat" title="Permanent link">&para;</a></h4>
 <p><code>mandatory - float</code></p>
 <p>The latitude of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;lat&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="lng"><code>lng</code><a class="headerlink" href="#lng" title="Permanent link">&para;</a></h4>
 <p><code>mandatory - string</code></p>
 <p>The longitude of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;lng&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="address"><code>address</code><a class="headerlink" href="#address" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The address of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;address&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="category"><code>category</code><a class="headerlink" href="#category" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The category of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;category&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="city"><code>city</code><a class="headerlink" href="#city" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The city of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;city&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="id"><code>id</code><a class="headerlink" href="#id" title="Permanent link">&para;</a></h4>
 <p><code>integer</code></p>
 <p>The id of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="phone"><code>phone</code><a class="headerlink" href="#phone" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The phone of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;phone&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="title"><code>title</code><a class="headerlink" href="#title" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The title of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;title&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <h4 id="zipcode"><code>zipcode</code><a class="headerlink" href="#zipcode" title="Permanent link">&para;</a></h4>
 <p><code>string</code></p>
 <p>The zipcode of the store.</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="p">[{</span>
     <span class="s2">&quot;zipcode&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
 <span class="p">}]</span>
 </code></pre></div>
 </td></tr></table>
-
 <script>
   ((window.gitter = {}).chat = {}).options = {
     room: 'store-locator/store-locator'
   };
 </script>
-
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
                 
                   
@@ -847,58 +858,58 @@ Datas are stored in an array of object for better performance.<br /></p>
             </article>
           </div>
         </div>
+        
       </main>
       
         
 <footer class="md-footer">
   
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-          <a href="index.html" title="Overview" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="index.html" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Overview
             </div>
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Overview
-              </div>
+          </div>
+        </a>
+      
+      
+        <a href="how-it-works.html" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              How it works
             </div>
-          </a>
-        
-        
-          <a href="how-it-works.html" title="How it works" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                How it works
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 - Joris DANIEL aka Yoriiis
+            Copyright &copy; 2021 - Joris DANIEL aka Yoriiis
           </div>
         
         Made with
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
+        
       </div>
       
     </div>
@@ -906,19 +917,13 @@ Datas are stored in an array of object for better performance.<br /></p>
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
-      <script src="assets/javascripts/vendor.83fe6e3c.min.js"></script>
-      <script src="assets/javascripts/bundle.7e1cb91c.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
-      
-      <script>
-        app = initialize({
-          base: ".",
-          features: [],
-          search: Object.assign({
-            worker: "assets/javascripts/worker/search.37585f48.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+    
+      <script src="assets/javascripts/bundle.4ea5477f.min.js"></script>
       
     
   </body>
